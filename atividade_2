@@ -1,0 +1,221 @@
+atividade 1 
+////////////
+
+void main(){
+ var numero = 12;
+  if(numero == -12) {
+    print('é negativo');
+  }else {
+    print('é positivo');
+  }
+  
+  
+}
+
+atividade 2
+///////////
+
+void main() {
+  
+const int primeiro = 68;
+  
+const int segundo = 45;
+  
+  
+
+const bool e_maior = primeiro < segundo;
+
+  
+
+const bool sao_iguais = primeiro == segundo;
+  
+  
+
+if(e_maior){
+    
+print ("O primeiro valor é maior");
+
+  }else if(sao_iguais){
+    
+print ("Os valores são iguais");
+
+}
+  
+else{
+    print(" O segundo valor é maior que o primeiro");
+
+}
+
+
+}
+
+atividade 3 
+////////////
+
+void main() {
+  var a = 2;
+  var b = 4;
+  var c = 5;
+  
+  var conta1 = (a+b*c);
+  var conta2 = (b /a * c);
+  
+  if(conta1 == conta2){
+    print('são iguais');
+  }else {
+    print('não são iguais');
+  }
+
+}
+
+atividade 4
+///////////
+
+void main(){
+  double nota1 = 10;
+  double nota2 = 10;
+  
+  double soma = nota1 + nota2;
+ double resultado = soma / 2;
+  
+if(resultado <= 6){
+  print('reprovado');
+}else{
+  print('aprovado');
+}
+  
+}
+
+atividade 5
+///////////
+
+void main() {
+
+  double nota1 = 2.0;
+
+  double nota2 = 1.0;
+
+  double nota3 = 3.0;
+
+
+  var resultado = nota1 + nota2 + nota3 / 3;
+
+  if (resultado < 7) {
+
+    print("reprovado");
+  
+} else if (resultado > 7) {
+print("aprovado");
+}
+
+atividade6
+///////////
+
+void main(){
+  double nota1 = 7;
+  double nota2 = 8;
+  double nota3 = 9;
+  
+  double soma = nota1 + nota2 + nota3;
+ double resultado = soma / 3;
+  
+if(resultado >= 9){
+  print('aprovado');
+  print('nota: A');
+}else if(resultado >= 8){
+  print('aprovado');
+  print ('nota: B');
+}else if(resultado >7.9){
+  print('aprovado');
+  print('nota C');
+}else if(resultado < 7)
+print('reprovado');
+}
+
+atividade 7
+///////////
+
+
+
+atividade 8
+///////////
+
+void main() {
+
+var valor_conta = 2999;
+ var saque = 9000;
+
+  
+  if(saque > 2999){
+    
+print ('Saldo indisponivel');
+}
+else if(saque < 2999){
+    
+print('Saque efetuado com sucesso!');
+    
+print(valor_conta-saque );
+    
+ 
+ }
+
+}
+
+atividade 9
+///////////
+
+void main(){
+  double idade = 22;
+  
+if(idade <= 12){
+  print('criança');
+}else if(idade <= 21){
+  print('jovem');
+}else if(idade <= 59){
+  print('adulto');
+}else if(idade >= 60){
+  print('idoso');
+}
+ 
+}
+
+atividade 10
+////////////
+
+void main(){
+  double peso = 85;
+  
+if(peso <= 60){
+  print('P');
+}else if(peso <= 74){
+  print('M');
+}else if(peso <= 85){
+  print('G');
+}else if(peso >= 86){
+  print('GG');
+}
+ 
+}
+
+atividade 11
+////////////
+
+void main() {
+  var salarioAntigo = 1000;
+  var dissidio = 4;
+  var porcentagem = 1000 / 100 * dissidio;
+  var salarioNovo = salarioAntigo + porcentagem;
+  
+double tempo = 1;
+  
+  
+  
+  if(tempo >= 1){
+   print(salarioNovo);
+  }else{
+    print('Funcionário com menos de 1 ano de empresa');
+  }
+    
+
+  
+}
